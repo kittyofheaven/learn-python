@@ -1,5 +1,5 @@
 #pake ini klo mau dictionary order
-from collections import OrderedDict
+from collections import OrderedDict #tapi buat di python versi terbaru udah default sie
 
 
 #dictionary
@@ -23,26 +23,26 @@ else :
 
 #kita bisa buat contact database dengan ini juga
 contacts = {
-    'hazel': ('Hazel', '085790826168', 'hazelhandrata@gmail.com') ,
+    'shironeko': ('Shironeko', '085790875657', 'shironeko@gmail.com') ,
     'joe': ('Joe', '085712312323', 'joeuedan@gmail.com'),
     'edward':('Edward', '08123476523', 'Edwardserigala@gmail.com') ,
     'james' : ('James', '08123497697', 'Jamesggantenganakbaik@gmail.com'),
 }
 print(contacts['james'])
-print(contacts.get('hazel')[1])
+print(contacts.get('shironeko')[1])
 
 #bisa buat dictionary in dictionary juga
 kontak = {
-    'hazel': {'name': 'Hazel','numbers':'085790826168','email':'hazelhandrata@gmail.com'} ,
+    'shironeko': {'name': 'Shironeko','numbers':'085790875657','email':'shironeko@gmail.com'} ,
     'joe': {'names': 'Joe','numbers':'085712312323','email':'joeuedan@gmail.com'},
     'edward':{'names':'Edward','numbers':'08123476523','email':'Edwardserigala@gmail.com'},
 }
-print(kontak.get('hazel').get('email'))
+print(kontak.get('shironeko').get('email'))
 #bisa buat dictionary didalam dictionary didalam dictionary lagi
 intelegence = {
-    'hazel' : {
+    'shironeko' : {
         'names': {
-            'name_1': 'hazel',
+            'name_1': 'shironeko',
             'name_2': 'Masiluy',
             'name_3': 'Kitty of Heaven',
         },
@@ -51,8 +51,8 @@ intelegence = {
             'numbers_2': '08576865657',
         },
         'emails': {
-        'emails_1': 'hazelhandrata@gmail.com',
-        'emails_2': 'echoind1945@gmail.com'
+        'emails_1': 'shironeko@gmail.com',
+        'emails_2': 'shironekochan@gmail.com'
         }
     },
     'Joe' : {
@@ -74,8 +74,8 @@ intelegence = {
 #mau print yang mana mas?, mau print yang email keduanya joe
 print(intelegence.get('Joe').get('emails').get('emails_2'))
 #mau delete emails hazel 2
-intelegence.get('hazel').get('emails').pop('emails_2')
-print(intelegence.get('hazel').get('emails').get('emails_2'))
+intelegence.get('shironeko').get('emails').pop('emails_2')
+print(intelegence.get('shironeko').get('emails').get('emails_2'))
 
 #aga ribet tapi gapapa lah worth it 
 
