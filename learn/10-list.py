@@ -21,15 +21,15 @@ names = ["budi", 'tono', 'badut']
 print(names)
 
 #adding now
-names.append("hazel")
+names.append("shironeko")
 print(names)
 
 #adding with style (buat naruh secara teratur misalnya naruh diawal)
-names.insert(1, "feli")
+names.insert(1, "kitty")
 print(names)
 
 #remove
-names.remove("feli")
+names.remove("kitty")
 print(names)
 
 #reverse order
