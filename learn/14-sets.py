@@ -4,11 +4,11 @@ print(setsg)
 setsg.add(1)
 print(setsg)#saat ini di print maka sets tidak akan menambahkan angka 1 karena sets tidak ingin duplikat
 
-s = {'hazel', 'avan', 'arif'}
+s = {'shiro', 'avan', 'arif'}
 print(s)
 s.add('adam') #function add untuk menambahkan pada set
 print(s)
-s.add('hazel')
+s.add('shiro')
 print(s)#maka tidak akan bertambah
 
 #kita juga bisa mengubah tuple menjadi set ataupun list menjadi sets
