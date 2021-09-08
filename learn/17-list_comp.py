@@ -21,4 +21,22 @@ for ex in names:
 print (k)
 
 #lalu dibawah ini disederhanain dengan comperhension
-print(mantan + ' dumped me' for mantan in names)
+print([mantan + ' dumped me' for mantan in names])
+
+#ps : keep ur personal life and work seperate man AHAHAHAHAHA
+print(['i dumped ' + trash for trash in names]) #HEHEHEHEHEHEHEHE
+
+#application on movies & rating
+anime_rating = {"Overflow": 9, "Tokyo Ghoul" : 6, "Boku no Hero Academia" : 7, "Boku no Pico" : 2}
+
+#dibawah ini adalah konten yang akan di sederhanain dengan comperhension
+great_anime = []
+for anime in anime_rating:
+    #print(anime)
+    #print(anime_rating[anime])
+    if anime_rating[anime] < 3:
+        great_anime.append(anime) 
+print(great_anime)
+
+#lalu dibawah ini disederhanain dengan comperhension
+print([anime_bagus for anime_bagus in anime_rating if anime_rating[anime_bagus] < 3])
