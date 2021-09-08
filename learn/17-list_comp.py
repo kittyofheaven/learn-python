@@ -1,4 +1,5 @@
 #list comperhensions
+#bla bla bla ini di edit di web ngetes github commit
 names = ['jennifer', 'jesselyn', 'susan', 'sophie']
 
 #dibawah ini adalah konten yang akan di sederhanain dengan comperhension
