@@ -6,7 +6,7 @@ just learn python repo in my language
 isinya beberapa percobbaan yang kuambil dari youtube Clever Programmer
 https://youtu.be/4F2m91eKmts
 
-```pyhton
+```python
 a = "Hello World"
 print (a)
 
