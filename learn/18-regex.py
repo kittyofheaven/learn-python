@@ -56,3 +56,4 @@ print(re.compile("\[\]\+").search(random_text)) #gituh okeh
 #nah gimana klo ada multiple email adress
 print(re.compile("[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]+").search(email_text)) #ini kan cuma buat 1 kalimat doang
 print(re.compile("[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]+").findall(email_text))#nah function findall ini juaranya okeh
+#yey baka yarou
