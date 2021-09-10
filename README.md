@@ -35,3 +35,28 @@ hero_2.health = 1000
 print(hero_1.__dict__)
 print(hero_1.name)
 ```
+## my roadmap
+- [x] Variables
+- [x] Conditions
+- [x] Chained conditionals
+- [x] Operators
+- [x] Control flow
+- [x] Loops & iterables
+- [x] Basic data structure
+- [x] Function
+- [x] Mutable vs Immutable
+- [x] Common Methods
+- [ ] File IO
+- [ ] Object Oriented Programming
+- [ ] Data structures
+- [ ] Comprehensions
+- [ ] Lambda functions
+- [ ] Map, Filter
+- [ ] Collection
+- [ ] *args & **kwargs
+- [ ] Inheritance
+- [ ] Dunder methods
+- [ ] PIP
+- [ ] Environments
+- [ ] Modules
+- [ ] Async IO
