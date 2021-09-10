@@ -49,3 +49,5 @@ print(type(stringtime))
 #string parsing with dates strptime
 print(datetime.datetime.strptime('March 09, 2019', ('%B %d, %Y')))
 print(type((datetime.datetime.strptime('March 09, 2019', ('%B %d, %Y')))))
+
+#we can use maya on github.com awodjaowidj
