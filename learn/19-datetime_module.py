@@ -30,4 +30,22 @@ delta = datetime.timedelta(hours=10)
 print(datetime.datetime.now())
 print(datetime.datetime.now()+ delta)
 
-datetime.datetime.now(tz=pytz.UTC)
+print(' ')
+
+datetime_today = datetime.datetime.now(tz=pytz.UTC)
+print(datetime_today)
+datetime_jakarta = datetime.datetime.now(pytz.timezone('Asia/Jakarta'))
+print(datetime_jakarta)
+
+#for tz in pytz.all_timezones :
+ #   print (tz) #for print all time zone
+
+#string formating with dates strftime
+#2012-12-12 -> September 12, 2012
+stringtime = datetime_jakarta.strftime('%B %d, %Y')#%B buat bulan %d buat hari %Y buat tahun
+print(stringtime)
+print(type(stringtime))
+
+#string parsing with dates strptime
+print(datetime.datetime.strptime('March 09, 2019', ('%B %d, %Y')))
+print(type((datetime.datetime.strptime('March 09, 2019', ('%B %d, %Y')))))
