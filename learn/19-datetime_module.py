@@ -1,4 +1,5 @@
 import datetime
+import pytz
 
 #date
 today = datetime.date.today()
@@ -28,3 +29,5 @@ print(datetime_ehe)
 delta = datetime.timedelta(hours=10)
 print(datetime.datetime.now())
 print(datetime.datetime.now()+ delta)
+
+datetime.datetime.now(tz=pytz.UTC)
