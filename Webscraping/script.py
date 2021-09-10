@@ -1,5 +1,8 @@
+import pandas as pd
 import requests
 from bs4 import BeautifulSoup
+
+
 
 page = requests.get('https://forecast.weather.gov/MapClick.php?lat=34.09976000000006&lon=-118.33197499999994')
 soup = BeautifulSoup(page.content, 'html.parser')
@@ -24,3 +27,13 @@ temperature = [item.find(class_='temp').get_text() for item in items ]
 print(period_names)
 print(short_desc)
 print(temperature)
+
+#pandas for table
+weather_stuff = pd.DataFrame( 
+    {'period' : period_names,
+    'short_descriptions' : short_desc,
+    'temperatures' : temperature,}
+)
+print(type(weather_stuff))
+
+weather_stuff.to_csv('weather.csv')
