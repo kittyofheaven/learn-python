@@ -36,16 +36,16 @@ print(hero_1.__dict__)
 print(hero_1.name)
 ```
 ## my roadmap
-- [ ] Variables
-- [ ] Conditions
-- [ ] Chaine conditionals
-- [ ] Operators
-- [ ] Control flow
-- [ ] Loops & iterables
-- [ ] Basic data structure
-- [ ] Function
-- [ ] Mutable vs Immutable
-- [ ] Common Methods
+- [x] Variables
+- [x] Conditions
+- [x] Chained conditionals
+- [x] Operators
+- [x] Control flow
+- [x] Loops & iterables
+- [x] Basic data structure
+- [x] Function
+- [x] Mutable vs Immutable
+- [x] Common Methods
 - [ ] File IO
 - [ ] Object Oriented Programming
 - [ ] Data structures
