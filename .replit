@@ -1,2 +1,2 @@
 language = "python3"
-run = "python ObjectOrientedProgramming/4-init.py"
+run = "python ObjectOrientedProgramming/5-classes_vs_object.py"
