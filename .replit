@@ -1,0 +1,2 @@
+language = "python3"
+run = "python ObjectOrientedProgramming/4-init.py"
