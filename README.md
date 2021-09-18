@@ -46,7 +46,7 @@ print(hero_1.name)
 - [x] Function
 - [x] Mutable vs Immutable
 - [x] Common Methods
-- [ ] File IO
+- [x] File IO
 - [ ] Object Oriented Programming
 - [ ] Data structures
 - [ ] Comprehensions
