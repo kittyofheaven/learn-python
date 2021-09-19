@@ -1,2 +1,2 @@
 language = "python3"
-run = "python ObjectOrientedProgramming/5-classes_vs_object.py"
+run = "python learn/23-args_kwargs.py"
