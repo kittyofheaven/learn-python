@@ -10,6 +10,6 @@ for x in range(4) :
     print (l[x])
    
 #join untuk mengubah list menjadi strings
-joined = ' and '.join(l)
+joined = ''.join(l)
 
 print(joined)
