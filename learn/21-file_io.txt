@@ -1,0 +1,5 @@
+this is me writing using file io method
+second try
+third try
+fourth try
+this last line created with append method
